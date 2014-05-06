@@ -1,6 +1,8 @@
 gulp-yml
 ========
 
+[![Build Status](https://travis-ci.org/lazutkin/gulp-yml.svg)](https://travis-ci.org/lazutkin/gulp-yml)
+
 # Detailed documentation will be writen soon...
 
 # Installation
