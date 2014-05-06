@@ -1,5 +1,5 @@
 {
-  "name": "gulp-peg",
+  "name": "gulp-yml",
   "version": "0.1.0",
   "description": "Compile YML files",
   "main": "index.js",
