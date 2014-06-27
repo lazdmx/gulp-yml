@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "js-yaml": "^3.0.2",
-    "through2": "^0.4.1"
-    "gulp-util": "^2.2.14",
+    "through2": "^0.4.1",
+    "gulp-util": "^2.2.14"
   }
 }
