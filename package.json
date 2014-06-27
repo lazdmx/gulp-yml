@@ -30,12 +30,12 @@
     "gulp-coffee": "^1.4.2",
     "gulp-coffeelint": "^0.3.2",
     "gulp-plumber": "^0.6.1",
-    "gulp-util": "^2.2.14",
     "mocha": "^1.18.2",
     "vinyl": "^0.2.3"
   },
   "dependencies": {
     "js-yaml": "^3.0.2",
-    "through2": "^0.4.1"
+    "through2": "^0.4.1",
+    "gulp-util": "^2.2.14"
   }
 }
