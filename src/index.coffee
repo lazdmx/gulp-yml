@@ -6,7 +6,7 @@ through = require "through2"
 # ---------------
 processFile = ( file, opts ) ->
   content = file.contents.toString "utf8"
-  json    = YML.safeLoad content, opts
+  json    = YML.load content, opts
   file.path = gutil.replaceExtension file.path, ".json"
   file.contents = new Buffer JSON.stringify json
   file
@@ -14,6 +14,7 @@ processFile = ( file, opts ) ->
 
 # ---------------
 module.exports = ( opts = { } ) ->
+  opts.schema = YML[opts.schema] if opts.schema
 
   # Construct stream
   through.obj ( file, enc, cb ) ->
